@@ -1,0 +1,938 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    height: 81px;
+}
+.nav h1{
+    font-size: 3rem;
+    font-weight: normal;
+}
+.menu{
+    font-size: 2rem;
+}
+.hero{
+    margin-top: 110px;
+}
+.care{
+    text-align: center;
+
+}
+.care h1{
+    font-size: 2.3rem;
+}
+.care p{
+    font-size: 1.5rem;
+    margin-top: 10px;
+    padding: 10px;
+    color: #808080;
+}
+
+.black-dog img{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    /* filter: brightness(50%); */
+}
+.paw{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 3rem;
+}
+.paw-2{
+    width: 50px;
+}
+.paw-1, .paw-3{
+    margin-top: 20px;
+    width: 30px;
+}
+.welcome{
+    text-align: center;
+    margin-top: 10px;
+}
+.welcome p{
+    width: 90%;
+    margin-top: 10px;
+    line-height: 25px;
+    color: #808080;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.nurse{
+    padding: 20px;
+    margin-top: 30px;
+}
+.love{
+    padding: 10px;
+}
+.love h1{
+    font-weight: normal;
+    font-size: 40px;
+}
+.love p{
+    margin-top: 10px;
+    line-height: 25px;
+    color: #808080;
+    text-align: center;
+    font-size: 18px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    padding: 15px 25px;
+    background-color: #405a58;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.brown-fear{
+    margin-top: 3rem;
+    padding: 20px;
+}
+.brown-fear h1{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 40px;
+}
+.brown-fear p{
+    margin-top: 10px;
+    line-height: 25px;
+    color: #808080;
+    text-align: center;
+}
+.fluf-beauty{
+    margin-top: 3rem;
+    padding: 20px;
+}
+.fluf-beauty h1{
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 40px;
+}
+.fluf-beauty p{
+    margin-top: 10px;
+    line-height: 25px;
+    color: #808080;
+    text-align: center;
+}
+
+.about-white{
+    padding: 10px;
+}
+.paw2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 3rem;
+}
+.about{
+    margin-top: 10px;
+}
+.p1{
+    line-height: 30px;
+    margin-top: 1rem;
+    color: #808080;
+    font-size: 20px;
+    font-weight: lighter;
+}
+.p2{
+    margin-top: 15px;
+    line-height: 25px;
+    color: #808080;
+}
+.small1, .small2, .small3{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+.small1 p, .small2 p, .small3 p{
+    padding-top: 15px;
+    color: #808080;
+}
+.white-dog{
+    margin-top: 3rem;
+}
+
+.full-trainers{
+    background-color: rgb(194, 226, 194);
+}
+.paw3{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 3rem; 
+    padding-top: 3rem;
+}
+.trainer p{
+    text-align: center;
+    padding: 10px;
+    line-height: 25px;
+    font-size: 15px;
+}
+.trainer1{
+    margin-top: 3rem;
+    padding: 15px;
+}
+.jessica-profile{
+    margin-top: 2rem;
+}
+.jessica-profile h4{
+    font-size: 2.2rem;
+    font-weight: normal;
+}
+.jessica-profile p{
+    margin-top: 2rem;
+    line-height: 30px;
+    font-size: 18px;
+}
+.trainer2{
+    margin-top: 2rem;
+    padding: 15px;
+}
+.socials{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.twi{
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: 1px solid #808080;
+    font-size: 20px;
+}
+.insta{
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: 1px solid #808080;
+    font-size: 20px;
+}
+.fb{
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 50%;
+    border: 1px solid #808080;
+    font-size: 20px;
+}
+.cust-profile img{
+    width: 100px;
+}
+.price-table{
+    text-align: center;
+}
+.price-table p{
+    margin-top: 10px;
+    line-height: 25px;
+    color: #808080;
+}
+.price-table span{
+    display: flex;
+    flex-direction: column;
+}
+.tick{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.pricing{
+    color: white;
+    padding: 30px;
+    background-color: white;
+}
+.basic, .pro{
+    background-color: #a2c0be;
+}
+.pre{
+    background-color: #333333;
+}
+.pricing h2, h1{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+.pricing h2{
+    font-weight: normal;
+    font-size: 30px;
+}
+.pricing span{
+    font-size: 20px;
+    font-weight: normal;
+}
+.btn2{
+    margin-top: 30px;
+    padding: 15px 25px;
+    background-color: #405a58;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-self: center;
+}
+ 
+.btn2-pre{
+    background-color: #a2c0be;
+}
+.faqq p{
+   margin-top: 10px;
+    line-height: 25px;
+    color: #808080;
+    text-align: center; 
+}
+.dog-faq{
+    padding: 20px;
+}
+.dogfaq{
+    margin-top: 2rem;
+}
+.faqs{
+margin-top: 4rem;
+}
+.paw-5, .paw-6,.paw-7{
+    margin-top: 5px;
+    border: 1px solid #808080;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.paw-4{
+    margin-bottom: 8rem;
+    background-color: #808080;
+    border-radius: 50%;
+    padding: 10px;
+}
+.faq h4{
+    font-size: 18px;
+    font-weight: normal;
+}
+.faq p{
+    margin-top: 20px;
+    color: #808080;
+}
+.happy-cust{
+    background-color: whitesmoke;
+}
+.first-cust{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.customers{
+    margin-top: 3rem;
+    width: 350px;
+    background-color: #405a58;
+    text-align: center;
+    line-height: 35px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgb(0,0,0,0.5);
+    font-size: 20px;
+}
+.cust-profile{
+    margin-top: 3rem;
+    text-align: center;
+}
+.cust-profile img{
+    border-radius: 50%;
+    border: 10px solid #405a58;
+}
+.cust-profile p{
+    font-size: 25px;
+}
+.arrows{
+    display: flex;
+    gap: 2rem;
+    margin-top: 5rem;
+    font-size: 20px;
+}
+.gallery{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+}
+.gallery img{
+    translate: transform 0.3 ease;
+}
+.gallery img :hover{
+    transform: scale(1.1);
+}
+.dogger p{
+    margin-top: 10px;
+    line-height: 25px;
+    color: #808080;
+    text-align: center;
+}
+.dogger span{
+    display: flex;
+    flex-direction: column;
+}
+.blog{
+    padding: 20px;
+    margin-top: 3rem;
+}
+.dog-massage h3{
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: 1.5rem;
+}
+.dog-massage h4{
+    font-size: 19px;
+    font-weight: normal;
+    margin-top: 1rem;
+    color: #808080;
+}
+.dog-massage p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 1rem;
+    color: #808080;
+    margin-bottom: 1rem;
+    line-height: 25px;
+}
+.dog-massage a{
+    text-decoration: none;
+    color: #405a58;
+}
+.box-img{
+    margin-top: 2rem;
+}
+.service{
+    padding: 20px;
+    margin-top: 2rem;
+}
+.service img{
+    margin-bottom: 2rem;
+}
+.service h3{
+    font-weight: normal;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+.service p{
+    line-height: 25px;
+    color: #808080;
+    font-size: 18px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.padded{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.contact{
+    background-color: #a2c0be;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.contact h2{
+    display: flex;
+    align-self: flex-start;
+    font-weight: normal;
+    margin-left: 25px;
+}
+.f-name{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 1rem;
+}
+.f-name textarea{
+    padding: 10px;
+}
+.first-n{
+     width: 100%;
+     height: 2.5rem;
+     border-radius: 5px;
+     border: none;
+     margin-top: 10px;
+}
+.btn3{
+    display: flex;
+    align-self: flex-start;
+    margin-top: 30px;
+    padding: 15px 25px;
+    background-color: #405a58;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+    border: none;
+} 
+.paw4{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 3rem;
+}
+.cont-us{
+    background-color: #808080;
+    color: white;
+}
+.cont-info{
+    padding: 25px;
+}
+.addr h3{
+    font-weight: normal;
+}
+.addr p{
+    color: #d6c0c0;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.last{
+    background-color: #333333;
+    color: white;
+    padding: 30px 20px;
+}
+.last h3{
+    font-weight: normal;
+    margin-top: 10px;
+}
+.last p{
+    color: #808080;
+    margin-top: 10px;
+}
+.last li,.last a{
+    text-decoration: none;
+    color: #808080;
+    list-style: none;
+    line-height: 35px;
+}
+.follow{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.send-em{
+    display: flex;
+}
+.em{
+    margin-top: 20px;
+    color: #808080;
+    background-color: #333333;
+    border: 2px solid #808080;
+    padding: 10px;
+    width: 80%;
+}
+.send{
+    width: 20%;
+    height: 50px;
+    margin-top: 20px;
+}
+footer{
+    color: #808080;
+    background-color: #333333;
+    text-align: center;
+    padding-top: 3rem;
+}
+.ri-heart-fill{
+    color: red;
+}
+@media  (min-width : 768px){
+    .nav{
+        padding-block: 50px;
+        height: 150px;
+        background-color:#f2f6f6;
+    }
+    .nav:hover{
+        background-color: white;
+    }
+    .nav h1{
+        font-size:4rem;
+        margin-left: 2rem;
+        height: 150px;
+        padding-top: 20px;
+    }
+    .menu{
+        margin-right: 4rem;
+        margin-top: 25px;
+        font-size: 3rem;
+    }
+   .hero{
+    background-color: #f2f6f6;
+    margin-top:150px ;
+    padding-top: 50px;
+   } 
+   .care h1{
+    font-size: 3rem;
+   }
+   .care p{
+    font-size: 2.6rem;
+    font-weight: lighter;
+    line-height: 60px;
+   }
+   .black-dog {
+  width: 700px;        
+  height: 700px;  
+   overflow: hidden;    /*hides the rest */
+  display: flex;
+  justify-self: center;
+}
+.welcome h1{
+    width: 80%;
+    font-size: 2.8rem;
+    margin-left: 5rem;
+    line-height: 60px;
+}
+.welcome p{
+   font-size: 25px;
+   line-height: 45px;
+}
+.love{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.love h1{
+    font-size: 70px;
+}
+.love p{
+    font-size: 30px;
+    text-align: start;
+    line-height: 45px;
+}
+.btn{
+    margin-top: 50px;
+    padding: 30px 45px;
+    border-radius: 50px;
+    font-size: 35px;
+}
+.brown-fear h1,p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.brown-fear h1{
+    font-size: 70px;
+}
+.brown-fear p{
+    font-size: 30px;
+    text-align: start;
+    line-height: 45px;
+}
+.fluf-beauty h1, p{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;  
+}
+.fluf-beauty h1{
+    font-size: 70px;
+}
+.fluf-beauty p{
+    font-size: 30px;
+    text-align: start;
+    line-height: 45px;
+}
+.about-white{
+    padding: 20px;
+}
+.paw-1, .paw-3{
+    width: 40px;
+    margin-top: 30px;
+}
+.paw-2{
+    width: 80px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.about h1{
+    font-size: 60px;
+}
+.p1{
+    font-size: 35px;
+    line-height: 50px;
+}
+.p2{
+    font-size: 29px;
+    line-height: 45px;
+    margin-top: 50px;
+}
+.small1 p, .small2 p, .small3 p{
+    font-size: 33px;
+}
+.trainer h1{
+    font-size:65px;
+}
+.trainer p{
+   font-size: 30px;
+   line-height: 45px;
+   text-align: center;
+   margin-top: 2rem;
+}
+.jessica-profile h4{
+    font-size: 3.9rem;
+}
+.jessica-profile p{
+    font-size: 29px;
+    line-height: 45px;
+}
+.price-table h1{
+    font-size: 60px;
+}
+.price-table p{
+    margin-top: 2rem;
+    text-align: center;
+    line-height: 45px;
+    color: #808080;
+    font-size: 27px;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 3rem; 
+}
+.one{
+    padding-top: 20px;
+    padding-bottom: 6rem;
+}
+
+.pricing h2, h1{
+    font-size: 60px;
+}
+.pricing h1{
+    margin-bottom: 4rem;
+}
+.pricing span{
+    font-size: 40px;
+}
+.tick{
+    font-size: 40px;
+    margin-top: 30px;
+
+}
+.btn2, .btn2-pre{
+    margin-top: 3rem;
+    padding: 30px 45px;
+    border-radius: 50px;
+    font-size: 35px;
+}
+.paw-4{
+    display: flex;
+    flex-direction: column;
+margin-bottom: 13rem;
+width: 40%;
+padding: 30px;
+}
+.paw-5 img{
+   width: 30%;
+   
+}
+.faq h4{
+    font-size: 35px;
+}
+.faq p{
+    font-size: 28px;
+}
+.faqq h1{
+    font-size: 50px;
+}
+.faqq p{
+ margin-top: 4rem;
+    text-align: center;
+    line-height: 45px;
+    color: #808080;
+    font-size: 27px;
+    display: flex;
+    align-items: center; 
+    margin-bottom: 3rem; 
+}
+.customers{
+    width: 700px;
+    padding: 40px;
+    line-height: 50px;
+    font-size: 40px;
+    margin-top: 5rem;
+}
+
+.cust-profile{
+    margin-top: 7rem;
+}
+.cust-profile img{
+    width: 50%;
+    border: 15px solid #405a58;
+}
+
+.cust-profile p{
+    font-size: 45px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+.arrows{
+    font-size: 60px;
+}
+.gallery img{
+    transition: transform 0.3 ease;
+}
+.gallery img:hover{
+    transform: scale(1.1);
+}
+.dogger p{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    line-height: 45px;
+}
+
+.dog-massage h3{
+    font-size: 35px;
+    margin-top: 3rem;
+}
+.dog-massage h4{
+    font-size: 30px;
+    margin-top: 3rem;
+}
+.dog-massage p{
+   font-size: 28px; 
+   line-height: 40px;
+   margin-top: 2rem;
+}
+.dog-massage a{
+    font-size: 30px;
+    padding-top: 3rem;
+}
+.price-table p{
+    font-size: 29px;
+}
+.service img{
+    width: 30%;
+}
+.service h3{
+    font-size: 50px;
+}
+
+.service p{
+    font-size: 29px;
+    line-height: 40px;
+}
+.padded{
+    padding: 50px;
+}
+.contact{
+    padding: 50px;
+}
+.contact h2{
+    font-size: 40px;
+}
+.f-name{
+    width: 100%;
+    margin-top: 2rem;
+}
+.f-name p{
+    font-size: 30px;
+}
+.first-n{
+    height: 6rem;
+    border-radius: 8px;
+    border: none;
+}
+.f-name textarea{
+    font-size: 30px;
+}
+.btn3{
+    margin-top: 50px;
+    padding: 30px 45px;
+    border-radius: 50px;
+    font-size: 35px;
+}
+.cont-info{
+    padding: 50px;
+}
+.addr h3{
+    font-size: 40px;
+    margin-top: 3rem;
+}
+.addr p{
+    font-size: 30px;   
+}
+.last h3{
+    font-size: 30px;
+    margin-top: 3rem;
+}
+.last p{
+    font-size: 28px;
+}
+.last li, .last a{
+    font-size: 29px;
+    margin-top: 3rem;
+}
+.follow{
+    margin-top: 2rem;
+    font-size: 40px;
+}
+.send{
+    font-size: 35px;
+    width: 30%;
+    height: 100px;
+}
+.em{
+    font-size: 35px;
+}
+.end {
+    display: flex;
+    width:100%;
+  margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
